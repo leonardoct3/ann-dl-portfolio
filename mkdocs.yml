@@ -1,8 +1,8 @@
-site_name: Template de Entrega
-site_author: Sandmann, H.
-site_url: https://hsandmann.github.io/documentation.template
-repo_url: https://github.com/hsandmann/documentation.template
-repo_name: github/documentation.template
+site_name: MkDocs Template
+site_author: Leonardo C. T.
+site_url: https://leonardoct3.github.io/mkdocs-template
+repo_url: https://github.com/leonardoct3/mkdocs-template
+repo_name: github/mkdocs-template
 
 theme:
   name: material
@@ -110,7 +110,7 @@ plugins:
       enable_creation_date: true
   - git-authors
   - git-committers:
-      repository: hsandmann/hsandmann.github.com
+      repository: leonardoct3/mkdocs-template
       branch: main
   - search
   - badges
