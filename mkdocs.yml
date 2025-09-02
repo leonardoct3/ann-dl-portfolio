@@ -69,6 +69,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - markdown_grid_tables
+  - toc:
+      toc_depth: 3
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
@@ -108,10 +110,13 @@ plugins:
   - glightbox
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-authors
   - git-committers:
-      repository: leonardoct3/mkdocs-template
+      repository: leonardoct3/ann-dl-portfolio
       branch: main
+      exclude:
+        - "hsandmann"
+        - hsandmann
+        - "hsandmann@*"
   - search
   - badges
   - minify:
@@ -134,7 +139,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Exercises:
-    - Exercise 1 - Data: ./exercises/exercise1-data/main.md
+    - Exercise 1 - Data: ./exercises/data/main.md
   - Projects:
-    - Projeto: ./projeto/main.md
+    - Project 1 - Classification: ./projects/classification/main.md
   - Documentation: ./thisdocumentation/main.md
