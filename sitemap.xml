@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/</loc>
-         <lastmod>2025-08-25</lastmod>
+         <loc>https://leonardoct3.github.io/ann-dl-portfolio/</loc>
+         <lastmod>2025-09-02</lastmod>
     </url>
     <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/projeto/main/</loc>
-         <lastmod>2025-08-25</lastmod>
+         <loc>https://leonardoct3.github.io/ann-dl-portfolio/exercises/exercise1-data/main/</loc>
+         <lastmod>2025-09-02</lastmod>
     </url>
     <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/roteiro1/main/</loc>
-         <lastmod>2025-08-25</lastmod>
+         <loc>https://leonardoct3.github.io/ann-dl-portfolio/projeto/main/</loc>
+         <lastmod>2025-09-02</lastmod>
     </url>
     <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/roteiro2/main/</loc>
-         <lastmod>2025-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/roteiro3/main/</loc>
-         <lastmod>2025-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/roteiro4/main/</loc>
-         <lastmod>2025-08-25</lastmod>
-    </url>
-    <url>
-         <loc>https://leonardoct3.github.io/mkdocs-template/thisdocumentation/main/</loc>
-         <lastmod>2025-08-25</lastmod>
+         <loc>https://leonardoct3.github.io/ann-dl-portfolio/thisdocumentation/main/</loc>
+         <lastmod>2025-09-02</lastmod>
     </url>
 </urlset>
