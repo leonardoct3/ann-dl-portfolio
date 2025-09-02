@@ -1,100 +1,119 @@
-# Template de Entrega
+# Neural Networks & Deep Learning Portfolio
 
-
-???+ info inline end "Edição"
+???+ info inline end "Academic Term"
 
     2025.1
 
 
-## Grupo/Kit X
+## Author
 
-1. João da Silva
-1. Pedro de Souza
-1. Maria Oliveira
-1. Grupo K
-    - João da Silva
-    - Pedro de Souza
+**Leonardo Teixeira**  
+Artificial Neural Networks and Deep Learning Course
 
+---
 
+## Portfolio Overview
 
-!!! tip "Instruções"
+This portfolio documents my journey through the Artificial Neural Networks and Deep Learning course, showcasing both theoretical understanding and practical implementation of neural network concepts.
 
-    Vocês devem utilizar este template como um bloco de notas para registrar o que foi feito e o que falta fazer. Vocês devem adicionar as informações necessárias.
-    O template deve ser editado e atualizado a cada entrega, registrando assim a data de entrega e o que foi feito até o momento via Git.
+!!! tip "Portfolio Structure"
 
-## Entregas
+    This portfolio is organized into **Exercises** and **Projects**. Each section demonstrates different aspects of neural network design, implementation, and analysis. Navigate through the sidebar to explore specific topics.
 
-- [x] Roteiro 1 - Data 23/02/2025
-- [ ] Roteiro 2
-- [ ] Roteiro 3
-- [ ] Roteiro 4
-- [ ] Projeto
+## Progress Tracker
 
-## Diagramas
+### Exercises
+- [x] **Exercise 1 - Data Analysis** ✅ *Completed*
+  - 2D Class Separability Analysis
+  - Higher-Dimensional Non-linearity  
+  - Real-World Data Preprocessing
+- [ ] Exercise 2 - Neural Network Fundamentals
+- [ ] Exercise 3 - Training Optimization
+- [ ] Exercise 4 - Advanced Architectures
 
-Use o [Mermaid](https://mermaid.js.org/intro/){:target='_blank'} para criar os diagramas de documentação.
+### Projects  
+- [ ] **Final Project** - To be announced
 
-[Mermaid Live Editor](https://mermaid.live/){:target='_blank'}
+---
 
+## Learning Objectives
 
-``` mermaid
-flowchart TD
-    Deployment:::orange -->|defines| ReplicaSet
-    ReplicaSet -->|manages| pod((Pod))
-    pod:::red -->|runs| Container
-    Deployment -->|scales| pod
-    Deployment -->|updates| pod
+Throughout this course, I aim to develop expertise in:
 
-    Service:::orange -->|exposes| pod
+1. **Data Analysis & Preprocessing**
+   - Understanding class separability
+   - Feature engineering for neural networks
+   - Handling real-world datasets
 
-    subgraph  
-        ConfigMap:::orange
-        Secret:::orange
-    end
+2. **Neural Network Fundamentals**
+   - Perceptrons vs Multi-Layer Perceptrons
+   - Activation functions and their properties
+   - Forward and backward propagation
 
-    ConfigMap --> Deployment
-    Secret --> Deployment
-    classDef red fill:#f55
-    classDef orange fill:#ffa500
-```
+3. **Training & Optimization**
+   - Loss functions and optimization algorithms
+   - Regularization techniques
+   - Hyperparameter tuning
 
+4. **Advanced Architectures**
+   - Convolutional Neural Networks (CNNs)
+   - Recurrent Neural Networks (RNNs)
+   - Modern architectures and techniques
 
+---
 
-## Códigos
+## Technical Skills Demonstrated
 
-=== "De um arquivo remoto"
+### Programming & Tools
+- **Python**: NumPy, Pandas, Matplotlib, Seaborn
+- **Machine Learning**: Scikit-learn, TensorFlow/PyTorch
+- **Data Visualization**: Statistical plots, PCA analysis
+- **Documentation**: Markdown, MkDocs, Jupyter Notebooks
 
-    ``` { .yaml .copy .select linenums='1' title="main.yaml" }
-    --8<-- "https://raw.githubusercontent.com/hsandmann/documentation.template/refs/heads/main/.github/workflows/main.yaml"
-    ```
+### Analytical Skills
+- Statistical data analysis
+- Dimensionality reduction techniques
+- Class separability assessment
+- Feature engineering strategies
 
-=== "Anotações no código"
+---
 
-    ``` { .yaml title="compose.yaml" }
-    name: app
+## Portfolio Highlights
 
-        db:
-            image: postgres:17
-            environment:
-                POSTGRES_DB: ${POSTGRES_DB:-projeto} # (1)!
-                POSTGRES_USER: ${POSTGRES_USER:-projeto}
-                POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-projeto}
-            ports:
-                - 5432:5432 #(2)!
-    ```
+### Exercise 1: Data Analysis Mastery
+- ✅ Generated and analyzed 2D multi-class datasets
+- ✅ Explored linear vs nonlinear separability concepts
+- ✅ Applied PCA to 5D datasets for visualization
+- ✅ Preprocessed real-world Spaceship Titanic dataset
+- ✅ Optimized data for tanh activation functions
 
-    1.  Caso a variável de ambiente `POSTGRES_DB` não exista ou seja nula - não seja definida no arquivo `.env` - o valor padrão será `projeto`. Vide [documentação](https://docs.docker.com/reference/compose-file/interpolation/){target='_blank'}.
+**Key Achievement**: Demonstrated comprehensive understanding of how data characteristics influence neural network design decisions.
 
-    2. Aqui é feito um túnel da porta 5432 do container do banco de dados para a porta 5432 do host (no caso localhost). Em um ambiente de produção, essa porta não deve ser exposta, pois ninguém de fora do compose deveria acessar o banco de dados diretamente.
+---
 
+## Navigation Guide
 
-## Exemplo de vídeo
+Use the sidebar to explore:
 
-Lorem ipsum dolor sit amet
+- **Exercises**: Detailed implementations and analyses
+- **Projects**: Comprehensive applications of learned concepts  
+- **Documentation**: Technical details about this portfolio
 
-<iframe width="100%" height="470" src="https://www.youtube.com/embed/3574AYQml8w" allowfullscreen></iframe>
+Each exercise includes:
+- Problem statements and objectives
+- Step-by-step implementations
+- Visualizations and results
+- Key insights and learnings
+- Code examples with explanations
 
+---
 
-## Referências
+## Contact & Collaboration
+
+This portfolio represents my academic work in neural networks and deep learning. Feel free to explore the implementations and analyses documented here.
+
+**GitHub Repository**: [ann-dl-portfolio](https://github.com/leonardoct3/ann-dl-portfolio)
+
+## References
 
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/){:target='_blank'}

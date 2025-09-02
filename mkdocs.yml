@@ -1,8 +1,8 @@
-site_name: MkDocs Template
+site_name: Neural Networks & Deep Learning Portfolio
 site_author: Leonardo C. T.
-site_url: https://leonardoct3.github.io/mkdocs-template
-repo_url: https://github.com/leonardoct3/mkdocs-template
-repo_name: github/mkdocs-template
+site_url: https://leonardoct3.github.io/ann-dl-portfolio
+repo_url: https://github.com/leonardoct3/ann-dl-portfolio
+repo_name: github/ann-dl-portfolio
 
 theme:
   name: material
@@ -133,10 +133,8 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - This documentation: ./thisdocumentation/main.md
-  - Roteiros:
-    - Roteiro 1: ./roteiro1/main.md
-    - Roteiro 2: ./roteiro2/main.md
-    - Roteiro 3: ./roteiro3/main.md
-    - Roteiro 4: ./roteiro4/main.md
-  - Projeto: ./projeto/main.md
+  - Exercises:
+    - Exercise 1 - Data: ./exercises/exercise1-data/main.md
+  - Projects:
+    - Projeto: ./projeto/main.md
+  - Documentation: ./thisdocumentation/main.md
