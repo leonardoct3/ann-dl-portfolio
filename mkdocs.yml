@@ -140,6 +140,7 @@ nav:
   - Home: index.md
   - Exercises:
     - Exercise 1 - Data: ./exercises/data/main.md
+    - Exercise 2 - Perceptron: ./exercises/perceptron/main.md
   - Projects:
     - Project 1 - Classification: ./projects/classification/main.md
   - Documentation: ./thisdocumentation/main.md
