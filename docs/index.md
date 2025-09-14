@@ -23,16 +23,13 @@ This portfolio documents my journey through the Artificial Neural Networks and D
 ## Progress Tracker
 
 ### Exercises
-- [x] **Exercise 1 - Data Analysis** ✅ *Completed*
-  - 2D Class Separability Analysis
-  - Higher-Dimensional Non-linearity  
-  - Real-World Data Preprocessing
-- [ ] Exercise 2 - Neural Network Fundamentals
-- [ ] Exercise 3 - Training Optimization
-- [ ] Exercise 4 - Advanced Architectures
+- [x] **Exercise 1 - Data** ✅ *Completed*
+- [x] **Exercise 2 - Perceptron** ✅ *Completed*
+- [ ] Exercise 3 - MLP
+- [ ] Exercise 4 - Metrics
 
 ### Projects  
-- [ ] **Final Project** - To be announced
+- [ ] **Project 1 - Classification**
 
 ---
 
@@ -40,22 +37,22 @@ This portfolio documents my journey through the Artificial Neural Networks and D
 
 Throughout this course, I aim to develop expertise in:
 
-1. **Data Analysis & Preprocessing**
+### 1. **Data Analysis & Preprocessing**
    - Understanding class separability
    - Feature engineering for neural networks
    - Handling real-world datasets
 
-2. **Neural Network Fundamentals**
+### 2. **Neural Network Fundamentals**
    - Perceptrons vs Multi-Layer Perceptrons
    - Activation functions and their properties
    - Forward and backward propagation
 
-3. **Training & Optimization**
+### 3. **Training & Optimization**
    - Loss functions and optimization algorithms
    - Regularization techniques
    - Hyperparameter tuning
 
-4. **Advanced Architectures**
+### 4. **Advanced Architectures**
    - Convolutional Neural Networks (CNNs)
    - Recurrent Neural Networks (RNNs)
    - Modern architectures and techniques
@@ -75,19 +72,6 @@ Throughout this course, I aim to develop expertise in:
 - Dimensionality reduction techniques
 - Class separability assessment
 - Feature engineering strategies
-
----
-
-## Portfolio Highlights
-
-### Exercise 1: Data Analysis Mastery
-- ✅ Generated and analyzed 2D multi-class datasets
-- ✅ Explored linear vs nonlinear separability concepts
-- ✅ Applied PCA to 5D datasets for visualization
-- ✅ Preprocessed real-world Spaceship Titanic dataset
-- ✅ Optimized data for tanh activation functions
-
-**Key Achievement**: Demonstrated comprehensive understanding of how data characteristics influence neural network design decisions.
 
 ---
 

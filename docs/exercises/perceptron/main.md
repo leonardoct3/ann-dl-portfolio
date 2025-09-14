@@ -177,18 +177,17 @@ The training progress and decision boundary visualization demonstrate the percep
 
 ### Why Linearly Separable Data Leads to Quick Convergence
 
-The rapid convergence observed in Exercise 1 is explained by the **Perceptron Convergence Theorem**:
+The rapid convergence observed in Exercise 1 can be understood by examining how the perceptron learning process works:
 
-#### **Theoretical Foundation**
-- **Linearly Separable Data**: The two classes can be perfectly separated by a linear decision boundary
-- **Finite Convergence**: The perceptron algorithm is guaranteed to find a separating hyperplane in finite steps
-- **Error-Driven Learning**: Each misclassification moves the decision boundary closer to the optimal solution
+#### **Why the Perceptron Succeeded**
+- **Clear Separation**: The two classes are far apart with no overlap, making it easy to draw a line between them
+- **Consistent Learning**: Every mistake the perceptron makes provides clear guidance on which direction to adjust the decision line
+- **Stable Solution**: Once the perceptron finds a good separating line, no more adjustments are needed
 
-#### **Practical Factors Contributing to Fast Convergence**
-1. **Large Margin**: The 3.5-unit distance between class means creates a wide separable margin
-2. **Low Variance**: Covariance of 0.5 keeps most samples close to their class centers
-3. **Minimal Overlap**: The combination of distant means and low variance ensures clean separation
-4. **Optimal Learning Rate**: η = 0.01 provides stable updates without overshooting
+#### **Key Factors That Made Learning Fast**
+1. **Well-Separated Classes**: The 3.5-unit distance between class centers (1.5,1.5) and (5,5) creates plenty of space for a decision boundary
+2. **Tight Data Clusters**: Low variance (0.5) keeps most data points close to their class centers, reducing edge cases
+3. **No Conflicting Examples**: Since classes don't overlap, the perceptron never encounters contradictory training signals
 
 ---
 
@@ -347,6 +346,7 @@ The failure to converge in Exercise 2 stems from a fundamental mathematical limi
 
 #### **The Perceptron Limitation**
 This exercise perfectly demonstrates the **Perceptron Limitation Theorem**: perceptrons can only solve linearly separable problems. When data is not linearly separable:
+
 - The algorithm will never converge
 - Accuracy will remain poor (often near random guessing)
 - The decision boundary will oscillate indefinitely
