@@ -145,4 +145,5 @@ nav:
     - Exercise 4 - VAE: ./exercises/vae/main.md
   - Projects:
     - Project 1 - Classification: ./projects/classification/main.md
+    - Project 2 - Regression: ./projects/regression/main.md
   - Documentation: ./thisdocumentation/main.md
