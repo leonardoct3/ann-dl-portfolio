@@ -25,11 +25,12 @@ This portfolio documents my journey through the Artificial Neural Networks and D
 ### Exercises
 - [x] **Exercise 1 - Data** ✅ *Completed*
 - [x] **Exercise 2 - Perceptron** ✅ *Completed*
-- [ ] Exercise 3 - MLP
-- [ ] Exercise 4 - Metrics
+- [x] **Exercise 3 - MLP** ✅ *Completed*
+- [x] **Exercise 4 - Metrics** ✅ *Completed*
 
 ### Projects  
-- [ ] **Project 1 - Classification**
+- [x] **Project 1 - Classification** ✅ *Completed*
+- [x] **Project 2 - Regression** ✅ *Completed*
 
 ---
 
